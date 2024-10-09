@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "url": "/images/photo1.jpg",
+    "description": "A beautiful landscape"
+  },
+  {
+    "id": 2,
+    "url": "/images/photo2.jpg",
+    "description": "A serene beach"
+  },
+  {
+    "id": 2,
+    "url": "/images/phpt.png",
+    "description": "A serene beach"
+  }
+]
