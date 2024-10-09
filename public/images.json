@@ -8,5 +8,15 @@
     "id": 2,
     "url": "/images/IMG_20141102_164106.jpg",
     "description": "Eagle"
+  },
+  {
+    "id": 3,
+    "url": "/images/IMG_20141101_153025462.jpg",
+    "description": "Polar Bear"
+  },
+  {
+    "id": 4,
+    "url": "/images/IMG_20141107_153600687.jpg",
+    "description": "What is it"
   }
 ]
