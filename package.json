@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
@@ -42,5 +43,5 @@
     "not dead",
     "not ie 11"
   ],
-  "homepage": "https://lakeonwan.github.io/photo-gallery"
+  "homepage": "https://lakeonwan.github.io/origami-gallery"
 }
