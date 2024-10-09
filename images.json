@@ -1,12 +1,12 @@
 [
   {
     "id": 1,
-    "url": "/images/photo1.jpg",
-    "description": "A beautiful landscape"
+    "url": "/images/IMG_20140721_144340.jpg",
+    "description": "Peacock"
   },
   {
     "id": 2,
-    "url": "/images/photo2.jpg",
-    "description": "A serene beach"
+    "url": "/images/IMG_20141102_164106.jpg",
+    "description": "Eagle"
   }
 ]
