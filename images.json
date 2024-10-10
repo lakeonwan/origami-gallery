@@ -1,22 +1,26 @@
 [
   {
     "id": 1,
-    "url": "/images/IMG_20140721_144340.jpg",
+    "url": "/images/originals/IMG_20140721_144340.jpg",
+    "thumbUrl": "/images/thumbnails/IMG_20140721_144340.jpg",
     "description": "Peacock"
   },
   {
     "id": 2,
-    "url": "/images/IMG_20141102_164106.jpg",
+    "url": "/images/originals/IMG_20141102_164106.jpg",
+    "thumbUrl": "/images/thumbnails/IMG_20141102_164106.jpg",
     "description": "Eagle"
   },
   {
     "id": 3,
-    "url": "/images/IMG_20141101_153025462.jpg",
+    "url": "/images/originals/IMG_20141101_153025462.jpg",
+    "thumbUrl": "/images/thumbnails/IMG_20141101_153025462.jpg",
     "description": "Polar Bear"
   },
   {
     "id": 4,
-    "url": "/images/IMG_20141107_153600687.jpg",
+    "url": "/images/originals/IMG_20141107_153600687.jpg",
+    "thumbUrl": "/images/thumbnails/IMG_20141107_153600687.jpg",
     "description": "What is it"
   }
 ]
