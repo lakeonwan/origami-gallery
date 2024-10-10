@@ -1,7 +1,7 @@
 <template>
   <div class="gallery">
     <div v-for="image in images" :key="image.id" class="image-container">
-      <img :src="baseUrl === '/' ? image.url : baseUrl + image.url" :alt="image.description" />
+      <img :src="baseUrl === '/' ? image.thumbUrl : baseUrl + image.thumbUrl" :alt="image.description" />
       <p>{{ image.description }}</p>
     </div>
   </div>
