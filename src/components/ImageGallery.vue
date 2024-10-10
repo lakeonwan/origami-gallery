@@ -1,7 +1,7 @@
 <template>
   <div class="gallery">
     <div v-for="image in images" :key="image.id" class="image-container">
-      <img :src="image.url" :alt="image.description" />
+      <img :src="baseUrl === '/' ? image.url : baseUrl + image.url" :alt="image.description" />
       <p>{{ image.description }}</p>
     </div>
   </div>
@@ -13,10 +13,13 @@ import { ref, onMounted } from 'vue';
 export default {
   setup() {
     const images = ref([]);
+    const imagesJsonPath = `${process.env.BASE_URL}images.json`;
+    const baseUrl = `${process.env.BASE_URL}`;
 
     // Fetch the image data on component mount
     onMounted(() => {
-      fetch('/images.json')
+
+      fetch(imagesJsonPath)
           .then(response => response.json())
           .then(data => {
             images.value = data;
@@ -24,7 +27,7 @@ export default {
     });
 
     return {
-      images
+      images, baseUrl
     };
   }
 };
